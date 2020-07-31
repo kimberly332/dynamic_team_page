@@ -1,22 +1,19 @@
-// Declare variables
-
-
 (() => {
-  if (typeof document !== 'undefined') {
-    let count = 0; // count number of clicks
+  console.log('fried!');
+  
+  let popUp = document.querySelector(".popup"),
+      lbClose = popUp.querySelector("span"),
+      buttons = document.querySelectorAll(".button1");
 
-    let getImages = document.querySelectorAll("img");
-
-    function onClick() {
-      let msg = "Clicked on a graph - this one: " + this.id;
-      console.log(msg);
-
-      // add filter
-      var element = document.querySelectorAll("wrapper");
-      this.classList.toggle("grayscale");
-    }
-    getImages.forEach(img => img.addEventListener("click", onClick));
-
+  function showLightbox() {
+    popUp.classList.add('showPopup');
   }
 
+  function hideLightbox() {
+    popUp.classList.remove('showPopup');
+  }
+
+
+  buttons.forEach(button => button.addEventListener("click", showLightbox));
+  lbClose.addEventListener("click", hideLightbox);
 })();
