@@ -20,10 +20,10 @@
   function changeImage() {
     console.log(buttonNum);
     if (buttonNum == 1) {
-      img.src =`images/member1.jpg`;
+      img.src =`images/show1.jpg`;
     }
     else {
-      img.src =`images/member2.jpg`;
+      img.src =`images/show2.jpg`;
     }
   }
 
