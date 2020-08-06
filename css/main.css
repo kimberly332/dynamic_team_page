@@ -186,7 +186,7 @@ span {
 .button2 {
   position: absolute;
   width: 631px;
-  left:0;
+  right:0;
   top: 560px;
   text-align: center;
   opacity: 0;
