@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<!-- in mobile set zoon level to 100%, set size to equal device width -->
@@ -12,24 +12,26 @@
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	</head>
 	<body>
+		<h1 class="hidden">Dynamic Team Page</h1>
 		<header>
 			<img class="logo" src="images/logo.svg" alt="Logo" width="100">
 			<nav>
+				<h2 class="hidden">Navigation</h2>
 				<ul class="nav_links">
 					<li><a href="#">HOME</a></li>
 					<li><a href="#">PROJECTS</a></li>
 					<li><a href="#">TEAM</a></li>
 				</ul>
 			</nav>
-			<a class="cta" href="#"><button>CONTACT</button></a>
+			<a class="cta" href="#">CONTACT</a>
 		</header>
 
 		<section>
-				<h2 class="hidden">Team Page Image</h2>
-				<div>
-					<img class="responsive" src="images/team.jpg" alt="Team">
-					<div class="centered" id="team_quote">We are a tight knit <span>team</span> of digital designers and developers, working together to create <span>beautiful</span>, effective brands on the web.</div>
-				</div>
+			<h2 class="hidden">Team Page Main Image</h2>
+			<div>
+				<img class="responsive" src="images/team.jpg" alt="Team">
+				<div class="centered" id="team_quote">We are a tight knit <span>team</span> of digital designers and developers, working together to create <span>beautiful</span>, effective brands on the web.</div>
+			</div>
 		</section>
 
 		<!-- Team Members Information -->
@@ -54,19 +56,22 @@
 
 			<div class="popup" id="popup">
 				<div class="popup-inner">
-					<span class="popup-close" href="#">X</span>
+					<span class="popup-close"><a href="#">X</a></span>
 					<div class="popup-photo">
-						<img class="photo" src="images/member1.jpg">
+						<img class="photo" src="images/member1.jpg" alt="Member">
 					</div>
 					<div class="popup-text">
-						<h2 class="name"></h2>
+						<h2 class="name">Display Name</h2>
 						<p class="selfIntroduction"></p>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- This is where the content goes -->
+		<div id="copyright">
+			<p>&copy; 2020 Shan-Li Wang All Rights Reserved.</p>
+		</div>
+
 		<script src="js/main.js"></script>
 	</body>
 </html>
