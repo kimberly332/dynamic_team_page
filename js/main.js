@@ -14,7 +14,8 @@
 
   const personalInfo = [
   ["KIMBERLY", `Hi! My name is Kimberly. I am a Media Interactive Design student who is currently studying at Fanshawe College. I love music and designs, and I couldn’t live without Pinterest for a day because there are so many creative designs that could give me lots of inspiration. It’s interesting to note that people thought it is crazy to hold a pocket smartphone 10 years ago, but ironically almost every people have one now. I would love to become one of those crazy designers who even were judged when they first started, but people just couldn’t live without their designs nowadays.`],
-  ["JENNY", `Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac quam sit amet elit lacinia pellentesque at sit amet quam. Cras id tincidunt ante, nec viverra eros. Proin nec nisl blandit, luctus leo eget, convallis dui. In ac lorem ac nulla sollicitudin consectetur vitae ut elit. Duis nisi mi, vestibulum quis luctus sit amet, consectetur rutrum lorem. Nullam molestie et ex sit amet dapibus. Fusce ultrices orci quis finibus vestibulum. Mauris augue nunc, consequat id nisl vitae, varius pretium purus.`]
+  ["JENNY", `With refined and sensuous skills, I could provide a design that fits each concept. I am studying interactive media design at Fanshawe College. I am in charge of creating and reviewing overall design creation in the team, and developing various skills to design proper concepts. I also have great communication and management skills.
+`]
   ]
 
   function changeImage() {
