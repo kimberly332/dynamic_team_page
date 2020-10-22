@@ -19,7 +19,6 @@ HTML CSS JS
 ## Authors
 
 * **Shan-Li Wang** - (https://github.com/kimberly332)
-* **Jiyun Bae** - (https://github.com/jiyun-bae)
 
 ## License
 
