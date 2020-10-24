@@ -2,6 +2,8 @@
 
 A Team Bio page based on BAND-AID BIER.
 
+[Simple DEMO](https://kimberly332.github.io/dynamic_team_page/)
+
 ## Description
 
 This is a bio page that is designing based on our final integrated project, which is a mash-up brand with Amstel Bier and BAND-AID Bandage.
